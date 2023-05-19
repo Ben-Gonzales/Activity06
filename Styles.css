@@ -1,3 +1,8 @@
+#layout-properties{
+    border: 10px solid maroon;
+    border-style: dashed;
+}
+
 .title{
     color:white;
     border: 10px solid black;
