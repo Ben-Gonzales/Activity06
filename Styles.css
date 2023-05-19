@@ -1,0 +1,82 @@
+.title{
+    color:white;
+    border: 10px solid black;
+    border-radius: 25%;
+    padding: 10px;
+    background-color: blue;
+}
+
+hr{
+    border: 5px solid yellowgreen;
+}
+
+section h1, section h2, h2 {
+font-size:xx-large;
+font-family: 'Courier New';
+text-align: center;
+}
+
+section p, article p{
+    font-family: 'Arial';
+    font-size:large;
+    text-align: center;
+}
+
+#Box-Model {
+    text-align: center;
+}
+
+#content{
+    color: darkkhaki;
+    height: 50px;
+    width: 100px;
+    background-color: rebeccapurple;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+#padding{
+    color: darkkhaki;
+    height: 100px;
+    width: 200px;
+    background-color: rebeccapurple;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border:10px solid black;
+}
+
+#border{
+    color: darkkhaki;
+    height: 100px;
+    width: 200px;
+    background-color: rebeccapurple;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border:50px solid black;
+}
+
+#margin1{
+    color: darkkhaki;
+    height: 100px;
+    width: 200px;
+    background-color: rebeccapurple;
+    margin: auto;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+#margin2{
+    color: darkkhaki;
+    height: 100px;
+    width: 200px;
+    background-color: rebeccapurple;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border: 10px solid black;
+}
