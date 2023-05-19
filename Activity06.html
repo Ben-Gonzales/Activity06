@@ -74,31 +74,48 @@
             
                 <details>
                     <summary>Display</summary>
-                    <p>Determines how the element is displayed on the page, such as block, inline, or flex.</p>
+                    <p>The display property controls how an element is rendered on the page. It determines whether an element generates a block-level box or an inline box. Common values for the display property include:</p>
+                    <p><strong>Block:</strong> The element generates a block-level box, taking up the full width available and starting on a new line.</p>
+                    <p><strong>Inline:</strong> The element generates an inline-level box, allowing other elements to appear on the same line.</p>
                 </details>
                 <details>
                     <summary>Position</summary>
-                    <p>Determines how the element is positioned on the page, such as static, relative, absolute, or fixed.</p>
+                    <p>The position property defines the positioning scheme of an element. It controls how an element is positioned in relation to its normal position in the document flow. The position property accepts the following values:</p>
+                    <p><strong>Static (default):</strong> The element follows the normal document flow.</p>
+                    <p><strong>Relative:</strong> The element is positioned relative to its normal position. You can use properties like top, right, bottom, and left to adjust its position.</p>
+                    <p><strong>Absolute:</strong> The element is positioned relative to its closest positioned ancestor. If no positioned ancestor is found, it's positioned relative to the initial containing block.</p>
+                    <p><strong>Fixed:</strong> The element is positioned relative to the browser window. It remains fixed even when scrolling.</p>
                 </details>
                 <details>
                     <summary>Float</summary>
-                    <p>Determines whether an element should float to the left or right of the surrounding text.</p>
+                    <p>The float property allows an element to be positioned to the left or right of its containing element, allowing text and other elements to wrap around it. Common values include:</p>
+                    <p><strong>Left:</strong> The element floats to the left of its containing element.</p>
+                    <p><strong>Right</strong> The element floats to the right of its containing element.</p>
+                    <p><strong>None (default):</strong> The element does not float and follows the normal document flow.</p>
                 </details>
                 <details>
                     <summary>Clear</summary>
-                    <p>Determines whether an element should clear a previously floated element.</p>
+                    <p>The clear property specifies whether an element should be positioned below any floating elements that come before it. It determines the behavior of elements that are adjacent to floated elements. Common values include:</p>
+                    <p><strong>Left:</strong> The element clears any left-floating elements.</p>
+                    <p><strong>Right:</strong> The element clears any right-floating elements.</p>
+                    <p><strong>Both:</strong> The element clears both left and right-floating elements.</p>
+                    <p><strong>None (default):</strong> The element does not clear any floating elements.</p>
                 </details>
                 <details>
                     <summary>Width and Height</summary>
-                    <p>Control the size of the element.</p>
+                    <p>The width and height properties control the dimensions of an element. They determine the width and height of the content area inside the padding and border areas. You can specify these properties using various units such as pixels (px), percentages (%), viewport units (vw and vh), or other relative units.</p>
                 </details>
                 <details>
                     <summary>Margin and Padding</summary>
-                    <p>Control the space around and within the element, respectively.</p>
+                    <p> The margin property controls the space outside an element, creating gaps between elements, while the padding property controls the space inside an element, creating space between the content and the border. You can specify these properties for each side individually (margin-top, margin-right, margin-bottom, margin-left) or use the shorthand notation to apply them collectively. Margins and padding can also be specified using different units of measurement.</p>
                 </details>
                 <details>
                     <summary>Overflow</summary>
-                    <p>Determines how content that exceeds the element's size should be handled</p>
+                    <p>The overflow property controls how content that overflows the dimensions of an element is displayed. It determines whether to display scrollbars, hide the overflow, or automatically expand the container. Common values include:</p>
+                    <p><strong>Visible (default):</strong> Content is not clipped, and overflowing content may be displayed outside the element.</p>
+                    <p><strong>Hidden:</strong> Overflowing content is clipped and not displayed.</p>
+                    <p><strong>Scroll:</strong> Scrollbars are added to the element, allowing users to scroll through the overflowing content.</p>
+                    <p><strong>Auto:</strong> Scrollbars are added only when necessary, based on the content's dimensions and the available space.</p>
                 </details>
 </section>
 </body>

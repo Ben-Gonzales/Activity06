@@ -80,3 +80,7 @@ section p, article p{
     padding: 10px;
     border: 10px solid black;
 }
+
+p > strong{
+    font-weight: 900;
+}
